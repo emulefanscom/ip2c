@@ -1,0 +1,28 @@
+Some parts of the IP-to-Country Database are derived from APNIC, ARIN, LACNIC and RIPE databases whose copyright details are given below:
+
+APNIC CONDITIONS OF USE:
+
+The files are freely available for download and use on the condition that APNIC will not be held responsible for any loss or damage arising from the application of the information contained in these reports.
+
+APNIC endeavours to the best of its ability to ensure the accuracy of these reports; however, APNIC makes no guarantee in this regard.
+
+In particular, it should be noted that these reports seek to indicate the country where resources were first allocated or assigned. It is not intended that these reports be considered as an authoritative statement of the location in which any specific resource may currently be in use.
+
+
+ARIN database copyright:
+
+Copyright (c) American Registry for Internet Numbers. All rights reserved.
+
+
+RIPE database copyright:
+
+Copyright (c) by RIPE NCC
+
+Restricted rights.
+
+Except for agreed Internet operational purposes, no part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, electronic, mechanical, recording, or otherwise, without prior permission of the RIPE NCC on behalf of the copyright holders. Any use of this material to target advertising or similar activities is explicitly forbidden and may be prosecuted. The RIPE NCC requests to be notified of any such activities or suspicions thereof.
+
+
+LACNIC database copyright:
+
+Copyright (c) LACNIC
