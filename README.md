@@ -1,40 +1,29 @@
 # eMule ip-to-country.csv
 
-IP to location / country mapping file ip-to-country.csv for eMule (and other). English and Chinese version.
+IP to location / country mapping files **ip-to-country.csv** for eMule (and maybe other programs).
 
-Homepage: [IP to country on emulefans.com](https://www.emulefans.com/news/plugin/ip-to-country/)
+We periodically generate **ip-to-country.csv** of various versions in various languages, and upload them into "Releases" of this repository.
 
-Inactive since 2014, semi-archived project. Imported from [code.google.com/archive/p/ip2c](https://code.google.com/archive/p/ip2c/). Maintained by [eMuleFans.com](https://www.emulefans.com/) / [@tomchen](https://github.com/tomchen), [@chengr28](https://github.com/chengr28).
+|                                             | World Country-level ip2c | World City-level ip2c | China City ip2c  |
+|---------------------------------------------|:------------------------:|:---------------------:|:----------------:|
+| English (`en`)                              | [Download]()             | [Download]()          |                  |
+| Mainland China Simplified Chinese (`zh-CN`) | [Download]()             |                       | [Download]()     |
+| Taiwan Traditional Chinese (`zh-TW`)        | [Download]()             |                       | [Download]()     |
+| Hong Kong Traditional Chinese (`zh-HK`)     | [Download]()             |                       |                  |
+| Singapore Simplified Chinese (`zh-SG`)      | [Download]()             |                       |                  |
+| French (`fr`)                               | [Download]()             |                       |                  |
+| German (`de`)                               | [Download]()             |                       |                  |
+| Spanish (`es`)                              | [Download]()             |                       |                  |
+| Russian (`ru`)                              | [Download]()             |                       |                  |
+| Japanese (`ja`)                             | [Download]()             |                       |                  |
+| Brazilian Portuguese (`pt-BR`)              | [Download]()             |                       |                  |
 
-Under [OPEN DATA LICENSE (GeoLite)](https://github.com/emulefanscom/ip2c/blob/master/OPEN%20DATA%20LICENSE%20(GeoLite).txt), [RIR-License](https://github.com/emulefanscom/ip2c/blob/master/RIR-License.txt), etc.
+Last updated: 2021-11-08 (DB-IP v2.2.2021110219; QQWry 20211103)
 
-### Original description
+We use [DB-IP](https://db-ip.com/)'s normal (country)-level and city-level databases, which are released under [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/). For China City ip2c, we use QQWry's IP location database (QQ 纯真版 IP 数据库) under [its own license](https://github.com/emulefanscom/ip2c/blob/master/QQWry_License.txt).
 
-IP to Country 英文版（来自[MaxMind](http://www.maxmind.com/)，由eMuleFans.com编辑转换为eMule mods可用的格式）。
+Maintained by [eMuleFans.com](https://www.emulefans.com/) / [@tomchen](https://github.com/tomchen), [@chengr28](https://github.com/chengr28). Homepage: [IP to country on emulefans.com](https://www.emulefans.com/news/plugin/ip-to-country/).
 
-IP to Country 简体和繁体中文版。由eMuleFans.com编辑从英文版的IP2C翻译。
+The project was inactive from 2014 to 2021, but was reactivated in November 2021.
 
-一些eMule mods可以使用这些IP2C。
-
-[主页及更多介绍](https://www.emulefans.com/news/plugin/ip-to-country/)
-
-IP-to-Country English version (From [MaxMind](http://www.maxmind.com/); converted to eMule mods accepted format by editors from eMuleFans.com).
-
-IP-to-Country Chinese Simplified and Traditional version. Translated from the English version by editors from eMuleFans.com.
-
-[HomePage and Intro](https://www.emulefans.com/news/plugin/ip-to-country/) (in Chinese)
-
-### File list
-
-* en: English
-* zhcn: 大陆简体中文通用简称
-* zhtw-short: 台灣繁體中文通用簡稱
-* zhhk-short: 港澳繁體中文通用簡稱
-* zhsg-short: 新马简体中文通用简称
-* zhcn-long: 大陆简体中文全称
-* zhtw-long: 台灣繁體中文全稱
-* zhhk-long: 港澳繁體中文全稱
-* zhsg-long: 新马简体中文全称
-* ip2c-chinacity.zip ([release](https://github.com/emulefanscom/ip2c/releases/download/2013-05-31/ip2c-chinacity.zip)): 简体中国地区扩展:城镇版
-* ip2c-chinaisp.zip ([release](https://github.com/emulefanscom/ip2c/releases/download/2013-05-31/ip2c-chinaisp.zip)): 简体中国地区扩展:城镇+ISP版
-* ip2c-ipv6-en-zhcn-zhtw-short-130401.7z ([release](https://github.com/emulefanscom/ip2c/releases/download/2013-05-31/ip2c-ipv6-en-zhcn-zhtw-short-130401.7z)): English&大陆简体中文通用简称&台灣繁體中文通用簡稱
+The code was imported from [code.google.com/archive/p/ip2c](https://code.google.com/archive/p/ip2c/), but the git repo is now intentionally left empty as it's not meaningful to manage ip-to-country.csv file with git. The git history still exist, and the "Releases" is still in use. You can find the [eMule format ip-to-country.csv converter in `ip-to-country-csv-converter` repo](https://github.com/emulefanscom/ip-to-country-csv-converter), and [countryflag.dll source files and flag images in `countryflag-emule` repo](https://github.com/emulefanscom/countryflag-emule).
